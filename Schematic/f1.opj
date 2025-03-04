@@ -1,0 +1,36 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\proiect1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\proiect1.dsn")
+      (Path "Design Resources" ".\proiect1.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\proiect1.dsn" "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 416"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "-146 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\P1_2024_435B_TATOMIR_MIHAIL_CRISTIAN_PACT_N1_LTSPICE1\SCHEMATIC\PROIECT1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))))

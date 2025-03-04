@@ -1,0 +1,239 @@
+(ExpressProject "Preamplif_1"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\modele_a1_lib\1n4148.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bc807-25.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bc817-25.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bc846b.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bc856b.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bzx84c5v1.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bzx84c5v6.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bzx84c6v2.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bzx84c6v8.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bzx84c8v2.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\bzx84c10.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\irfr120npbf.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\mjd31cg.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\mjd32cg.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\opto.lib"
+        (Type "EDIF Netlist"))
+      (File "..\modele_a1_lib\smls14bet.lib"
+        (Type "EDIF Netlist")))
+    (NoModify)
+    (File ".\preamplif_1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Netlist_TAB "0")
+    (Create Allegro Netlist "TRUE")
+    (Allegro Netlist Directory "allegro")
+    (View Allegro Netlist Files "TRUE")
+    (Allegro Netlist Create DCF File "FALSE")
+    (Update Allegro Board "TRUE")
+    (Allegro Netlist Output Board File "allegro\PREAMPLIF_1.brd")
+    (Allegro Netlist Remove Etch "FALSE")
+    (Allegro Netlist Place Changed Component "ALWAYS_REPLACE")
+    (Allegro Netlist Open Board in Allegro "ORCAD")
+    (Allegro Setup Backup Versions "3")
+    (Allegro Setup Ignore Constraints "FALSE")
+    (Allegro Setup Part Type Length "31")
+    (Allegro Netlist Combine Property String "PCB Footprint")
+    (Allegro Netlist Ignore Fixed Property "FALSE")
+    (Allegro Netlist User Defined Property "FALSE"))
+  (Folder "Outputs"
+    (File ".\preamplif_1-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\preamplif_1-pspicefiles\schematic1\transient.sim"
+        (DisplayName "SCHEMATIC1-TRANSIENT")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\preamplif_1-pspicefiles\schematic1\tran.sim"
+        (DisplayName "SCHEMATIC1-tran")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\preamplif_1-pspicefiles\schematic1\v4dcsweep.sim"
+        (DisplayName "SCHEMATIC1-V4DCSWEEP")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\preamplif_1-pspicefiles\schematic1\tran.sim"))
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Model Libraries"
+      (File "..\modele_a1_lib\1n4148.lib"
+        (DisplayName "..\modele_a1_lib\1n4148.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bc807-25.lib"
+        (DisplayName "..\modele_a1_lib\bc807-25.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bc817-25.lib"
+        (DisplayName "..\modele_a1_lib\bc817-25.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bc846b.lib"
+        (DisplayName "..\modele_a1_lib\bc846b.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bc856b.lib"
+        (DisplayName "..\modele_a1_lib\bc856b.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bzx84c2v7.lib"
+        (DisplayName "..\modele_a1_lib\bzx84c2v7.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bzx84c5v1.lib"
+        (DisplayName "..\modele_a1_lib\bzx84c5v1.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bzx84c5v6.lib"
+        (DisplayName "..\modele_a1_lib\bzx84c5v6.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bzx84c6v2.lib"
+        (DisplayName "..\modele_a1_lib\bzx84c6v2.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bzx84c6v8.lib"
+        (DisplayName "..\modele_a1_lib\bzx84c6v8.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bzx84c8v2.lib"
+        (DisplayName "..\modele_a1_lib\bzx84c8v2.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\bzx84c10.lib"
+        (DisplayName "..\modele_a1_lib\bzx84c10.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\irfr120npbf.lib"
+        (DisplayName "..\modele_a1_lib\irfr120npbf.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\mjd31cg.lib"
+        (DisplayName "..\modele_a1_lib\mjd31cg.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\mjd32cg.lib"
+        (DisplayName "..\modele_a1_lib\mjd32cg.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\mmbfj177lt1g.lib"
+        (DisplayName "..\modele_a1_lib\mmbfj177lt1g.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\mmbfj309lt1g.lib"
+        (DisplayName "..\modele_a1_lib\mmbfj309lt1g.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\opto.lib"
+        (DisplayName "..\modele_a1_lib\opto.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\modele_a1_lib\smls14bet.lib"
+        (DisplayName "..\modele_a1_lib\smls14bet.lib")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SMLS14BET
+      (FullPartName "SMLS14BET.Normal")
+      (LibraryName "D:\P1S_2023\MODELE_A1_LIB\SMLS14BET.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (JMMBFJ177LT1G
+      (FullPartName "JMMBFJ177LT1G.Normal")
+      (LibraryName "D:\P1S_2023\AJF24 TST\MODELE_A1_LIB\MMBFJ177LT1G.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\1n4148.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bc807-25.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bc817-25.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bc846b.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bc856b.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bzx84c2v7.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bzx84c5v1.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bzx84c5v6.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bzx84c6v2.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bzx84c6v8.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bzx84c8v2.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\bzx84c10.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\irfr120npbf.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\mjd31cg.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\mjd32cg.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\mmbfj177lt1g.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\mmbfj309lt1g.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\opto.lib")
+      (Select "PSpice Resources" "Model Libraries"
+         "D:\ProiectFinal\modele_a1_lib\smls14bet.lib"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 413"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 -30 1606 49 508")
+        (Scroll "-209 0")
+        (Zoom "77")
+        (Occurrence "/"))
+      (Path "D:\PROIECTFINAL\PREAMPLIFICATOR_1_1\PREAMPLIF_1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "tatom")
+  (ISPCBBASICLICENSE "false"))
